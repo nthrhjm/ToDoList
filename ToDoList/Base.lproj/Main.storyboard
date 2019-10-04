@@ -54,6 +54,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="nRA-nv-fZw">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="Kyh-AT-7uw">
+                            <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                             <connections>
                                 <action selector="tapAddButton:" destination="BYZ-38-t0r" id="lMr-dU-tuq"/>
                             </connections>
@@ -75,7 +76,7 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="CQ2-jE-rmh">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="barTintColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="barTintColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>

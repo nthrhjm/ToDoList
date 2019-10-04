@@ -17,7 +17,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        //保存済みのTODOをと読み込む
+        //保存済みのTODOを読み込む
         let userDefaults = UserDefaults.standard
         if let storedTodoList = userDefaults.object(forKey: "todoList") as? Data {
             do{
@@ -62,7 +62,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
                     userDefaults.set(data, forKey: "todoList")
                     userDefaults.synchronize()
                 } catch {
-                    
+                    //エラー処理
                 }
             }
         }

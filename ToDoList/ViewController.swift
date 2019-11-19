@@ -67,7 +67,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             }
         }
         
-        //okボタンがp押されたら
+        //okボタンが押されたら
         alertController.addAction(okAction)
         //キャンセルボタンが押されたら
         let cancelButton = UIAlertAction(title: "CANCEL", style: UIAlertAction.Style.cancel, handler: nil)
@@ -151,7 +151,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     
 //独自クラスをシリアライズする
-//NSOblectを継承、NSSecureCodingプロトコルに準拠
+//NSObjectを継承、NSSecureCodingプロトコルに準拠
 class MyTodo: NSObject, NSSecureCoding {
     static var supportsSecureCoding: Bool {
         return true
